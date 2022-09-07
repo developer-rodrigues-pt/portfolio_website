@@ -14,12 +14,13 @@ Homepage (index.html)
 
 header
 \- a
-\-- h1
+\-- h1: Daniel Rodrigues
 \- nav
-\-- a: About me
-\-- a: Projects
-\-- a: Skills
-\-- a: Contact
+\-- ul
+\--- a: About me
+\--- a: Projects
+\--- a: Skills
+\--- a: Contact
 
 main
 \- section: About Me
