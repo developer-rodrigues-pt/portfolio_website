@@ -1,0 +1,45 @@
+> Nome do projeto
+Portfolio Website
+
+> Âmbito/Objectivo do projeto
+Este projeto, pretende ser apenas uma simples página web estática, não obstante, devendo existir um qualquer comportamento por via do JavaScript,
+esta página web deve servir como "homepage" que dispõe os projetos que serão desenvolvidos ao longo do percurso do curso "Full-Stack Developer" do Codecademy. Entretanto, é também necessário cumprir os requisitos ao nível da responsividade.
+
+> Ideia original
+https://priceless-kepler-06d70c.netlify.app/
+
+> Ideia original ao detalhe
+
+Homepage (index.html)
+
+header
+\- a
+\-- h1
+\- nav
+\-- a: About me
+\-- a: Projects
+\-- a: Skills
+\-- a: Contact
+
+main
+\- section: About Me
+\-- container
+\--- h2: About Me
+\--- p
+\--- ...
+\-- img
+\- section: Projects
+\-- h2: Projects
+\-- ul: project #1, project #2, ...
+\- section: Skills
+\-- h2: Skills
+\-- container
+\--- skill icon #1, skill icon #2, ...
+\- section: Contact
+\-- h2: Contact
+\-- p
+\-- container
+\--- contact mode icon #1, contact mode icon #2, ...
+
+footer
+\- p: Made with [LOVE icon] in Lisbon
