@@ -2,8 +2,7 @@
 Portfolio Website
 
 > Âmbito/Objectivo do projeto
-Este projeto, pretende ser apenas uma simples página web estática, não obstante, devendo existir um qualquer comportamento por via do JavaScript,
-esta página web deve servir como "homepage" que dispõe os projetos que serão desenvolvidos ao longo do percurso do curso "Full-Stack Developer" do Codecademy. Entretanto, é também necessário cumprir os requisitos ao nível da responsividade.
+Este projeto, pretende ser apenas uma simples página web estática, não obstante, deverá existir um qualquer "comportamento" por via do JavaScript, esta página web deve servir como "homepage" que exibe os projetos que foram desenvolvidos ao longo do percurso do curso "Full-Stack Developer" do Codecademy. Entretanto, é também necessário cumprir os requisitos de responsividade.
 
 > Ideia original
 https://priceless-kepler-06d70c.netlify.app/
@@ -34,13 +33,11 @@ main
 \-- ul: project #1, project #2, ...
 \- section: Skills
 \-- h2: Skills
-\-- container
-\--- skill icon #1, skill icon #2, ...
+\-- ul: skill icon #1, skill icon #2, ...
 \- section: Contact
 \-- h2: Contact
 \-- p
-\-- container
-\--- contact mode icon #1, contact mode icon #2, ...
+\-- ul: contact mode icon #1, contact mode icon #2, ...
 
 footer
 \- p: Made with [LOVE icon] in Lisbon

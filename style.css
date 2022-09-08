@@ -4,8 +4,9 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    width: 60rem;
+    max-width: 60rem; /* aprender: a utilizacao do max-width ao invés do width, fez com que o espaco utilizado fosse o existente, e nao sempre um tamanho obrigatorio */
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 a {
@@ -50,7 +51,6 @@ section {
 #about-me {
     display: flex;
     justify-content: space-between;
-    align-items: top;
 }
 
 #about-me img {
