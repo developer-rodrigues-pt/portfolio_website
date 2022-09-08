@@ -92,3 +92,15 @@ section {
     width: 2rem;
     margin-top: 0.5rem;
 }
+
+/* section "Contact" */
+
+#contact ul {
+    display: flex;
+}
+
+#contact li {
+    font-size: 2rem;
+    width: 3rem;
+    margin-top: 0.5rem;
+}
