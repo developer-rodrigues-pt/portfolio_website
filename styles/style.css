@@ -20,7 +20,7 @@ h2 {
 }
 
 ul {
-    padding-left: 1rem;
+    padding-left: 0;
 }
 
 li {
@@ -69,8 +69,26 @@ section {
 
 /* section "Projects" */
 
+#projects ul {
+    padding-left: 1rem;
+}
+
 #projects li {
     font-weight: bold;
     list-style-type: '\2799'; /* aprender: list-style-type pode ser personalizado (neste caso, codigo unicode) */
     padding-left: 0.5rem;
+}
+
+/* section "Skills" */
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills li {
+    font-size: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
 }
