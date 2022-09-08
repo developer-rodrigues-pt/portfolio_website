@@ -104,3 +104,13 @@ section {
     width: 3rem;
     margin-top: 0.5rem;
 }
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+.heart {
+    color: red;
+}
